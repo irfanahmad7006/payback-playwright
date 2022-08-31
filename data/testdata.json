@@ -1,0 +1,12 @@
+{
+    "anrede":"Herr",
+    "vorname":"Harry",
+    "nachname":"Potter",
+    "Geburtsdatum":"01012001",
+    "straße":"Diagon Alley",
+    "hausnummer":"420",
+    "PLZ":"CH61 1DE",
+    "ORT":"Edinburg",
+    "email": "harrypotter@payback.com",
+    "pin":"1231"
+}
