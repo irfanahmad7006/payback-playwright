@@ -117,7 +117,7 @@ export default class Anmelden {
         await eleNachname?.fill(nachName);
 
         const eleGeburtsdatum = await this.geburtsDatum;
-        await eleGeburtsdatum?.type(geburtsDatum, { delay: 10 });
+        await eleGeburtsdatum?.type(geburtsDatum, { delay: 5 });
 
         const eleStraße = await this.straße;
         await eleStraße?.fill(straße);

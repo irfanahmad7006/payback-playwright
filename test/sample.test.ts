@@ -83,7 +83,7 @@ describe('Launch Browser', () => {
         await nachName?.fill("Ahmad");
 
         const geburtsDatum = await page.$("input[name='birthday']");
-        await geburtsDatum?.type("21072000",{delay:100});
+        await geburtsDatum?.type("21072000",{delay:10});
        
         const straße = await page.$("input[name='street']");
         await straße?.fill("test straße");
