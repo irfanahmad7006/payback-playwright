@@ -2,7 +2,7 @@ import {chromium} from "playwright";
 
 describe('Launch Browser', () => {
 
-    xtest('Open Payback', async () => {
+    test('Open Payback', async () => {
         console.log("This test has been commented");
 
         

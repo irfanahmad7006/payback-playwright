@@ -108,7 +108,7 @@ export default class Anmelden {
 
     public async enterPersonalDetails(anrede: string, vorname: string, nachName: string, geburtsDatum: string, straße: string, hausNummer: string, plz: string, ort: string) {
         const eleAnrede = await this.anrede;
-        await eleAnrede?.selectOption(anrede);
+        await eleAnrede?.selectOption({ label: anrede });
 
         const eleVorname = await this.vorname;
         await eleVorname?.fill(vorname);
