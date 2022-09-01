@@ -20,7 +20,7 @@ Set-Up prerequisites.
 * Node JS
 * MS Visual Studio Code
 
-Maven Dependencies.
+Dev Dependencies.
 -----------------
 * "@types/jest": "^26.0.20",
 * "jest": "^26.6.3",
